@@ -1,0 +1,11 @@
+.brand {
+	color: purple;
+	background-color: pink;
+	width: 90px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	height: 40px;
+	border-radius: 25px;
+	float: left;
+	text-align: center;
+}

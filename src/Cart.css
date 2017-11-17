@@ -1,0 +1,10 @@
+.cart {
+	background: 10px 10px;
+	float: left;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 25px;
+	background-color: lightblue;
+	margin: 10px 10px;
+}
