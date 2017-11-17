@@ -11,13 +11,8 @@ class Cart extends Component {
 			brands: []
 		};
 	}
-	//can loop through state and render each product from state
 
 	render() {
-		// var display = this.state.brands.map((product, i) => {
-		// 	<Product key={i} name={this.product.name} />;
-		// });
-
 		let display = this.state.brands.map((product, i) => {
 			return (
 				<Product

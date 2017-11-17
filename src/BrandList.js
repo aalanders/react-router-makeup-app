@@ -4,9 +4,7 @@ import "./BrandList.css";
 //import { Route, Link } from "react-router-dom";
 import Product from "./Product.js";
 
-//will show a specific brand
 class BrandList extends Component {
-	//do my AJAX call
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -37,8 +35,6 @@ class BrandList extends Component {
 			method: "GET",
 			url: "http://makeup-api.herokuapp.com/api/v1/products.json",
 			data: {
-				//t: "titanic"
-				//makes ?t=titanic
 				brand: this.props.match.params.name
 			},
 			dataType: "json"
@@ -80,7 +76,3 @@ class BrandList extends Component {
 }
 
 export default BrandList;
-
-//<Route path="/brand/almay" component {Product} />
-//inside div above: once click on the object will render
-//<Product />

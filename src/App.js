@@ -3,7 +3,6 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import List from "./List.js";
 
-//will send to list of brands
 class App extends Component {
   render() {
     return (

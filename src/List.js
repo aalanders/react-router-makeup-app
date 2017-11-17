@@ -4,7 +4,6 @@ import { Route, Link } from "react-router-dom";
 import BrandList from "./BrandList.js";
 import Cart from "./Cart.js";
 
-//this will show list of brands
 class List extends Component {
 	constructor(props) {
 		super(props);
@@ -24,7 +23,6 @@ class List extends Component {
 	}
 
 	render() {
-		//looping to get all the brands
 		var brandList = this.props.brands.map((brand, i) => {
 			return (
 				<div key={i} className="brand">
@@ -55,11 +53,6 @@ class List extends Component {
 		);
 	}
 }
-
-//loops through props creating links for each
-//each link makes new route
-
-//that route renders the component
 
 List.defaultProps = {
 	brands: [
@@ -97,5 +90,3 @@ List.defaultProps = {
 };
 
 export default List;
-
-//need to put in route what brand they specifically want, right now for anything after brands/
